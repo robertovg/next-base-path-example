@@ -4,9 +4,7 @@ import NextLink from "next/link";
 export default function Index() {
   return (
     <div>
-      <h3 variant="h4" component="h1" gutterBottom>
-        Next.js example
-      </h3>
+      <h3>Next.js with experimental.basePath example</h3>
       <NextLink href="?reloadsWithAnyParam=true">
         <a>Add params to the URL and then page start reloading...</a>
       </NextLink>
