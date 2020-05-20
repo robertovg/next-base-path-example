@@ -1,0 +1,18 @@
+{
+  "name": "next-base-path-example",
+  "description": "Simple code example to show the issue with `experimental.basePath` causing reloads",
+  "version": "4.0.0",
+  "private": false,
+  "dependencies": {
+    "next": "^9.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  }
+}
